@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ display_name }} Installation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <main class="container narrow">
+        <section class="install-card">
+            <h1>{{ display_name }}</h1>
+            <p class="subtitle">Tap the button below using Android Chrome to install the Passpoint profile.</p>
+            <a class="install-button" href="/passpoint.config?profile={{ profile_key }}">Install {{ display_name }}</a>
+            <div class="note"><strong>Note:</strong> Android will show a system confirmation screen. User approval is required before the profile is saved.</div>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background: #f4f6f8; margin: 0; padding: 24px; color: #111; }
+.container { max-width: 1000px; margin: 0 auto; text-align: center; }
+.container.narrow { max-width: 560px; }
+h1 { font-size: 32px; margin-bottom: 8px; }
+.subtitle { color: #555; font-size: 17px; margin-bottom: 28px; }
+.card-wrapper { display: flex; justify-content: center; gap: 24px; flex-wrap: wrap; }
+.card, .install-card { background: #fff; border-radius: 16px; padding: 28px; box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+.card { width: 360px; }
+.qr-box { display: flex; justify-content: center; margin: 18px 0; }
+.install-button { display: inline-block; background: #0066cc; color: #fff; text-decoration: none; padding: 16px 24px; border-radius: 8px; font-size: 18px; font-weight: 700; }
+.note { margin-top: 24px; background: #f0f6ff; border-left: 4px solid #0066cc; padding: 14px; text-align: left; border-radius: 6px; }
+@media (max-width: 768px) { body { padding: 14px; } .card { width: 100%; } }
