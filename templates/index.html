@@ -1,27 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="/static/style.css">
+
+    /static/style.css
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 </head>
+
 <body>
+
     <main class="container">
+
         <h1>Passpoint Installation Portal</h1>
-        <p class="subtitle">Scan the correct QR Code for your operator.</p>
+
+        <p class="subtitle">
+            Scan the correct QR Code for your operator.
+        </p>
+
         <section class="card-wrapper">
+
             <article class="card">
                 <h2>TRUE Passpoint</h2>
                 <div id="qrTrue" class="qr-box"></div>
                 <p>Scan to open TRUE installation page.</p>
             </article>
+
             <article class="card">
                 <h2>DTAC Passpoint</h2>
                 <div id="qrDtac" class="qr-box"></div>
                 <p>Scan to open DTAC installation page.</p>
-            </article>            
+            </article>
+
             <article class="card">
                 <h2>Single Passpoint</h2>
                 <div id="qrSingle" class="qr-box"></div>
@@ -29,11 +42,42 @@
             </article>
 
         </section>
+
     </main>
+
     <script>
+
         const origin = window.location.origin;
-        new QRCode(document.getElementById("qrTrue"), { text: origin + "/install/true", width: 260, height: 260 });
-        new QRCode(document.getElementById("qrDtac"), { text: origin + "/install/dtac", width: 260, height: 260 });
+
+        new QRCode(
+            document.getElementById("qrTrue"),
+            {
+                text: origin + "/install/true",
+                width: 260,
+                height: 260
+            }
+        );
+
+        new QRCode(
+            document.getElementById("qrDtac"),
+            {
+                text: origin + "/install/dtac",
+                width: 260,
+                height: 260
+            }
+        );
+
+        new QRCode(
+            document.getElementById("qrSingle"),
+            {
+                text: origin + "/install/single",
+                width: 260,
+                height: 260
+            }
+        );
+
     </script>
+
 </body>
+
 </html>
