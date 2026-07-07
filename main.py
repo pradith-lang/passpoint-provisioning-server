@@ -24,6 +24,10 @@ PROFILE_MAP = {
         "display_name": "DTAC Passpoint",
         "profile_file": "dtac.xml",
     },
+    "Single": {
+        "display_name": "Single Passpoint",
+        "profile_file": "Single.xml",
+    },
 }
 
 # Use a stable boundary similar to android_passpoint reference implementation.
