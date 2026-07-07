@@ -26,7 +26,7 @@ PROFILE_MAP = {
     },
     "Single": {
         "display_name": "Single Passpoint",
-        "profile_file": "Single.xml",
+        "profile_file": "single.xml",
     },
 }
 
