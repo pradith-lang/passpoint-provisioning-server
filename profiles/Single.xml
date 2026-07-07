@@ -1,0 +1,49 @@
+<MgmtTree xmlns="syncml:dmddf1.2">
+<VerDTD>1.2</VerDTD>
+<Node>
+<NodeName>PerProviderSubscription</NodeName>
+<RTProperties>
+<Type>
+<DDFName>urn:wfa:mo:hotspot2dot0-perprovidersubscription:1.0</DDFName>
+</Type>
+</RTProperties>
+<Node>
+<NodeName>i001</NodeName>
+<Node>
+<NodeName>HomeSP</NodeName>
+<Node>
+<NodeName>FriendlyName</NodeName>
+<Value>Roaming Network True Dtac</Value>
+</Node>
+<Node>
+<NodeName>FQDN</NodeName>
+<Value>PACWifi.com;EAPSIM-Win1;EAPSIM;PAC-EAPSIM-Server;test.org;panasonic.aero</Value>
+</Node>
+<Node>
+<NodeName>RoamingConsortiumOI</NodeName>
+<Value>000D2E0010</Value>
+</Node>
+</Node>
+      <Node>
+        <NodeName>Credential</NodeName>
+        <Node>
+          <NodeName>Realm</NodeName>
+          <Value>wlan.mnc004.mcc520.3gppnetwork.org</Value>
+		 <Value>wlan.mnc005.mcc520.3gppnetwork.org</Value>
+        </Node>
+        <Node>
+          <NodeName>SIM</NodeName>
+          <Node>
+            <NodeName>IMSI</NodeName>
+            <Value>52004*</Value>
+		  <Value>52005*</Value>
+          </Node>
+          <Node>
+            <NodeName>EAPType</NodeName>
+	    <Value>18</Value>
+          </Node>
+        </Node>
+      </Node>
+</Node>
+</Node>
+</MgmtTree>
