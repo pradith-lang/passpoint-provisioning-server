@@ -24,7 +24,7 @@ PROFILE_MAP = {
         "display_name": "DTAC Passpoint",
         "profile_file": "dtac.xml",
     },
-    "Single": {
+    "single": {
         "display_name": "Single Passpoint",
         "profile_file": "single.xml",
     },
